@@ -1,7 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
+     <style>
+          .image-container {
+              width: 300px; /* Set the width of the container */
+              height: 300px; /* Set the height of the container */
+              overflow: hidden; /* Hide the overflow beyond the container */
+          }
+  
+          .cropped-image {
+              width: 100%; /* Set the image width to 100% of the container */
+              margin-top: -50px;  /* Let the height adjust automatically */
+          }
+      </style>
 	<title>Irvington Economics</title>
 	<!--
 
@@ -59,11 +70,12 @@
                          <li><a href="#home" class="smoothScroll">Home</a></li>
                          <li><a href="#feature" class="smoothScroll">Curriculum</a></li>
                          <li><a href="#about" class="smoothScroll">About us</a></li>
-                         <li><a href="#pricing" class="smoothScroll">Pricing</a></li>
+                         <!-- <li><a href="#pricing" class="smoothScroll">Pricing</a></li> -->
                          <li><a href="#contact" class="smoothScroll">Contact</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
-                         <li><a href="#"><span>irvingtonecon@gmail.com</span></a></li>
+                         <!-- <li><a href="#"><span>irvingtonecon@gmail.com</span></a></li> -->
+                         <li><a href="#">irvingtonecon@gmail.com</a></li>
                     </ul>
                </div>
 
@@ -110,7 +122,7 @@
 
                               <li><a href="#tab02" aria-controls="tab02" role="tab" data-toggle="tab">AP Macro</a></li>
 
-                              <li><a href="#tab03" aria-controls="tab03" role="tab" data-toggle="tab">Support</a></li>
+                              <li><a href="#tab03" aria-controls="tab03" role="tab" data-toggle="tab">Competitions</a></li>
                          </ul>
 
                          <div class="tab-content">
@@ -128,17 +140,14 @@
 
                               <div class="tab-pane" id="tab02" role="tabpanel">
                                    <div class="tab-pane-item">
-                                        <h2>Compatible Browsers</h2>
-                                        <p>Nam maximus elit a metus luctus, a faucibus magna mattis. Ut malesuada viverra iaculis. Nunc euismod sit amet neque a tincidunt.</p>
+                                        <h2>AP Macro</h2>
+                                        <p>You'll explore how changes in aggregate spending and production, economic fluctuations, and policy actions affect national income, unemployment, and inflation. Topics may include: Aggregate demand. Short-run and long-run aggregate supply. Equilibrium and changes in the Aggregate Demand-Aggregate Supply Model.</p>
                                    </div>
                                    <div class="tab-pane-item">
-                                        <h2>User Friendly</h2>
-                                        <p>Maecenas maximus velit lorem, quis pharetra turpis fringilla id. Vestibulum tempor facilisis efficitur. Sed nec nisi sit amet nibh pellentesque elementum.</p>
+                                        <h2>When We Meet </h2>
+                                        <p>We have AP Macroeconomic meetings every Thursday</p>
                                    </div>
-                                   <div class="tab-pane-item">
-                                        <h2>HTML5 & CSS3</h2>
-                                        <p>In viverra ipsum ornare sapien rhoncus ullamcorper. Vivamus vitae risus ac mi vehicula sagittis. Nulla dictum magna sit amet pharetra aliquam.</p>
-                                   </div>
+                              
                               </div>
 
                               <div class="tab-pane" id="tab03" role="tabpanel">
@@ -154,6 +163,7 @@
                          </div>
 
                     </div>
+
 
                     <div class="col-md-6 col-sm-6">
                          <div class="feature-image">
@@ -179,11 +189,13 @@
 
                     <div class="col-md-4 col-sm-4">
                          <div class="team-thumb">
-                              <img src="images/team-image1.jpg" class="img-responsive" alt="Andrew Orange">
+                              <div class="image-container">
+                              <img src="images/sparshPic.jpeg" class="cropped-image" alt="Andrew Orange">
+                         </div>
                               <div class="team-info team-thumb-up">
                                    <h2>Sparsh Bansal</h2>
                                    <small>Vice President</small>
-                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing eiusmod tempor incididunt ut labore et dolore magna.</p>
+                                 
                               </div>
                          </div>
                     </div>
@@ -193,19 +205,19 @@
                               <div class="team-info team-thumb-down">
                                    <h2>Lester Yu</h2>
                                    <small>Director</small>
-                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing eiusmod tempor incididunt ut labore et dolore magna.</p>
+                                   
                               </div>
-                              <img src="images/team-image2.jpg" class="img-responsive" alt="Catherine Soft">
+                              <img src="images/lesterprofile.jpeg" class="" alt="Catherine Soft">
                          </div>
                     </div>
 
                     <div class="col-md-4 col-sm-4">
                          <div class="team-thumb">
-                              <img src="images/team-image3.jpg" class="img-responsive" alt="Jack Wilson">
+                              <img src="images/arnavprofile.jpg" class="" alt="Jack Wilson">
                               <div class="team-info team-thumb-up">
                                    <h2>Arnav Chowdhry</h2>
                                    <small>Co-President</small>
-                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing eiusmod tempor incididunt ut labore et dolore magna.</p>
+                                 
                               </div>
                          </div>
                     </div>
