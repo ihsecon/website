@@ -311,7 +311,7 @@ http://www.tooplate.com/view/2106-soft-landing
   -----------------------------------------*/
 
   #home {
-    background: url('../images/economicsbackground.jpeg') no-repeat center center;
+    background: url('../images/home-bg.jpg') no-repeat center center;
     background-size: cover;
     vertical-align: middle;
     display: -webkit-box;
@@ -494,16 +494,19 @@ http://www.tooplate.com/view/2106-soft-landing
   }
 
   .testimonial-image {
-    background: url('../images/testimonial-image.jpg') no-repeat center center;
-    background-size: cover;
-    width: 100%;
+    background: url('../images/econbackground.jpeg') no-repeat center center ;
+    background-size: contain;
+    width: 90%;
     height: 65vh;
+
+
   }
 
   .testimonial-info {
     background: #202020;
     padding: 60px;
     height: 65vh;
+    width: '100%';
   }
 
   .testimonial-info h3 {
